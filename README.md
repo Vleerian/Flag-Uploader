@@ -2,6 +2,7 @@ Put your pups in a csv formate like the exmaple and set the  mode to random or f
 
 
 You will need to do 
-pip instal nsdotpy
+```pip instal nsdotpy```
+Thank you to Sweeze for the great library!
 
 that is the magic maker
