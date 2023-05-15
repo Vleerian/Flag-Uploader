@@ -1,8 +1,19 @@
-Put your pups in a csv formate like the exmaple and set the  mode to random or file, if you are in file it checks the 3rd value in the csv, anything else does 9003 mode the cool and fun way to upload flags.
+A fork of 9003's flag uploader, that I modified to satisfy a few wants I had
 
+- Uses the same TOML file as Shine/Henson
+- Randomly selects flags out of the flags folder
 
-You will need to do 
-```pip instal nsdotpy```
-Thank you to Sweeze for the great library!
+# Usage
+If you use Shine, copy in your `config.toml` file.
 
-that is the magic maker
+If you do not use Shine, create a `config.toml` file with the following format
+```toml
+[nations]
+"nation_name" = "password"
+"another_nation" = "another password"
+```
+Additionally, `NSDotPY` and `rtoml` are requirements. So run `pip3 install -r requirements.txt`
+
+Populate the `flags` directory with the flags you would like to apply to your puppets
+
+Run `flag_upload.py`, then press space until you're done.
