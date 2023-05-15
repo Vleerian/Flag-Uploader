@@ -3,7 +3,7 @@ import csv
 
 UA = input("Please enter your nation's name")
 
-session = NSSession("Flag_uploader", "1.0.0", "Written by 9003", f"In use by {UA}")
+session = NSSession("Flag_uploader", "1.0.0", "Written by 9003",UA)
 reader = []
 
 if session.login("cardmania9007", "me"):  # logs in and checks if login was successful
