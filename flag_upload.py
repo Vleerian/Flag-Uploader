@@ -5,7 +5,7 @@ import random
 
 # Setup nsdotpy session
 UA = input("Please enter your nation's name")
-session = NSSession("Flag_uploader", "1.0.0", "Written by Vleerian", f"In use by {UA}")
+session = NSSession("Flag_uploader", "1.0.0", "Vleerian", UA)
 
 # Load the config file
 with open("config.toml", "r") as f:
